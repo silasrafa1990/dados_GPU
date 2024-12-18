@@ -10,8 +10,8 @@ pd.set_option('display.max_colwidth', None)
 def scrap_gpu_database():
     url = 'https://www.tomshardware.com/reviews/gpu-hierarchy,4388.html'
     data_item = []
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
-                             'Chrome/91.0.4472.124 Safari/537.36'}
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/558.36 (KHTML, like Gecko) '
+                             'Chrome/91.0.4563.554 Safari/587.36'}
 
 
     response = requests.get(url, headers=headers)
